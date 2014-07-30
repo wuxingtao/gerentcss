@@ -9,4 +9,4 @@ a tcss test
 rolansini
 ![alt text][id]
 
-[id]: /img/index1.jpg "Preview"
+[id]: /img/index1.jpg "rolan"
