@@ -1,0 +1,260 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>罗兰西尼—纯意式私家定制顶级门窗,铝合金门窗十大新锐品牌,环保品牌排名</title>
+    <meta content="铝合金门窗品牌，铝合金门窗排名，铝合金十大品牌，铝合金门窗环保品牌，铝合金门窗新锐品牌。" name="keywords">
+    <meta content="铝合金门窗首选择“罗兰西尼”荣获铝合金门窗十大品牌，环保品牌，新锐品牌等多种荣誉，纯意式私家定制铝合金门窗排名较高，尽请关注：www.rolansini.com" name="description">
+<link rel="stylesheet" href="templates/rolansini/add2home.css" type="text/css" media="screen" />
+<script src="templates/rolansini/add2home.js"></script>
+<link href="templates/rolansini/style/global.css" rel="stylesheet" type="text/css">
+<link href="templates/rolansini/style/layout.css" rel="stylesheet" type="text/css">
+<link href="templates/rolansini/style/main2.css" rel="stylesheet" type="text/css">
+<link href="templates/rolansini/style/main.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet/tcss" type="text/css" href="templates/rolansini/style/t-main.css"/>
+<script type="text/javascript" src="templates/rolansini/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="templates/rolansini/js/tcss-json.js"></script>
+<script type="text/javascript" src="templates/rolansini/js/tcss.js"></script>
+<script language="javascript" src="templates/rolansini/js/modernizr.custom.js"></script>
+
+
+<!--[if lt IE 9]>
+<script src="/templates/rolansini/js/html5.js"></script>
+<script src="/templates/rolansini/js/css3-mediaqueries.js"></script>
+<![endif]-->
+<!--[if lte IE 6]>
+<script language="javascript" src="/templates/rolansini/js/IE6-PNg-min.js"></script>
+<script language="javascript">
+DD_belatedPNG.fix('div,ul,ol,li,dl,dt,dd,p,span,em,i,b,strong,a,img,input,textarea,select,header,footer,section,nav,article,time,aside');
+</script>
+<![endif]-->
+
+<script type="text/javascript">
+	console.log("page6:none");
+$(function(){
+
+	window.ready=true;
+
+           
+
+ 	var site=tcss.getSite({
+		loading:'loading-movie',
+		base:'',
+		content_fst:'#content_fst',
+		content_lst:'#content_lst',
+    	transition_in:'.main_alphaIn',
+<!--		transition_out:'.alphaOut',-->
+		page1:{html:"page1.html",css:"templates/rolansini/style/page1.css",t:"templates/rolansini/style/t-page1.css",js:"templates/rolansini/js/pages/page1.js",callback:function(e){console.log('callback!')}},
+
+	});
+});
+//-----------判断是否是手机--------------
+$(function(){
+	var system ={
+	win : false,
+	mac : false,
+	xll : false
+	};
+	var p = navigator.platform;
+	system.win = p.indexOf("Win") == 0;
+	system.mac = p.indexOf("Mac") == 0;
+	system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);
+	if(system.win||system.mac||system.xll){
+		//alert("PC");
+		$(".menu_btn").show();
+		$(".YD_menu").hide();
+	}else{
+		//window.location.href="index.aspx";//跳转当前页面地址
+		$(".menu_btn").show();
+		$(".YD_menu").hide();
+		//alert("手机");
+	}
+});
+///////////////////////////////////////
+var SZBoo=2;
+$(window).load(function(){
+	//加载容器初始宽度//
+	var hash=this.location.hash;
+	console.log("hash:"+hash);
+
+		SZBoo=0;
+		$("#mian_SZBtn").fadeIn();
+		$("#content_ajax").width($(window).width()-165);
+
+	//页面刷新后当前栏目导航按钮高亮//
+	var pageIndex=hash.substring(5,6);
+
+	console.log("pageIndex:"+pageIndex);
+	for(var i=0;i<7;i++){
+		$(".btn"+i).removeClass("curr");
+	}
+	$(".btn"+pageIndex).addClass("curr");
+	//主导航点击事件//
+	$(".BtnMc li").click(function(){
+		var menuID = $(this).index();
+		if(menuID==0){
+			window.location.href="/index.html";
+		}else{
+			window.location.href="main.html#page"+menuID;
+		}
+		
+		$(this).children("a").addClass("curr").parent("li").siblings().children("a").removeClass("curr");
+		//$("#main").animate({marginTop:-$(window).height()+"px"},1000);
+
+	});
+    	$(".YT_btn").click(function(){
+		if($(".YT_btn7").is(":hidden")){
+			$(".YT_btn").attr("src","/templates/rolansini/img/YT_menu_Btn_1.png");
+			$(".YT_btn1").css("display","block").animate({left:"-69px",bottom:"8px",rotate:"720deg"},300,"easeOutBack");
+			$(".YT_btn2").delay(50).css("display","block").animate({left:"-31px",bottom:"76px",rotate:"720deg"},300,"easeOutBack");
+			$(".YT_btn3").delay(100).css("display","block").animate({left:"40px",bottom:"134px",rotate:"720deg"},300,"easeOutBack");
+			$(".YT_btn4").delay(150).css("display","block").animate({left:"123px",bottom:"151px",rotate:"720deg"},300,"easeOutBack");
+			$(".YT_btn5").delay(200).css("display","block").animate({left:"200px",bottom:"134px",rotate:"720deg"},300,"easeOutBack");
+			$(".YT_btn6").delay(200).css("display","block").animate({left:"261px",bottom:"76px",rotate:"720deg"},300,"easeOutBack");
+			$(".YT_btn7").delay(200).css("display","block").animate({left:"299px",bottom:"8px",rotate:"720deg"},300,"easeOutBack");
+		}else{
+			$(".YT_btn").attr("src","/templates/rolansini/img/YT_menu_Btn.png");
+			$(".YT_btn1").animate({left:"116px",bottom:"-5px",rotate:"-720deg"},300,"easeInBack").fadeOut(300);
+			$(".YT_btn2").delay(50).animate({left:"116px",bottom:"-5px",rotate:"-720deg"},300,"easeInBack").fadeOut(300);
+			$(".YT_btn3").delay(100).animate({left:"116px",bottom:"-5px",rotate:"-720deg"},300,"easeInBack").fadeOut(300);
+			$(".YT_btn4").delay(150).animate({left:"116px",bottom:"-5px",rotate:"-720deg"},300,"easeInBack").fadeOut(300);
+			$(".YT_btn5").delay(200).animate({left:"116px",bottom:"-5px",rotate:"-720deg"},300,"easeInBack").fadeOut(300);
+			$(".YT_btn6").delay(200).animate({left:"116px",bottom:"-5px",rotate:"-720deg"},300,"easeInBack").fadeOut(300);
+			$(".YT_btn7").delay(200).animate({left:"116px",bottom:"-5px",rotate:"-720deg"},300,"easeInBack").fadeOut(300);
+		}
+        });
+	//移动端导航点击事件
+	$(".YD_menu li").click(function(){
+		var menuID = $(this).index();
+		window.location.href="main.html#page"+(menuID+1);
+		
+		SZBoo=0;
+	
+		$("#mian_SZBtn").fadeIn();
+		$("#content_ajax").css("background","#0c0c0c").animate({width:$(window).width()-165+"px"},300);
+	});
+	$(".menu_logo").click(function (){
+		SZBoo=2;
+		window.location.href="/index.html";
+
+	});
+	//右下角业态按钮点击事件//
+	$(".kjjbtn").click(function(){
+		if($(".kjjbtn7").is(":hidden")){
+			//alert(1);
+			$(".kjjbtn").attr("src","/templates/rolansini/img/main_kjjbtn.png");
+			$(".kjjbtn1").css("display","block").animate({right:"6px",bottom:"224px",rotate:"720deg"},300,"easeOutBack");
+			$(".kjjbtn2").delay(50).css("display","block").animate({right:"66px",bottom:"214px",rotate:"720deg"},300,"easeOutBack");
+			$(".kjjbtn3").delay(100).css("display","block").animate({right:"121px",bottom:"193px",rotate:"720deg"},300,"easeOutBack");
+			$(".kjjbtn4").delay(150).css("display","block").animate({right:"170px",bottom:"161px",rotate:"720deg"},300,"easeOutBack");
+			$(".kjjbtn5").delay(200).css("display","block").animate({right:"213px",bottom:"120px",rotate:"720deg"},300,"easeOutBack");
+			$(".kjjbtn6").delay(200).css("display","block").animate({right:"241px",bottom:"67px",rotate:"720deg"},300,"easeOutBack");
+			$(".kjjbtn7").delay(200).css("display","block").animate({right:"253px",bottom:"9px",rotate:"720deg"},300,"easeOutBack");
+		}else{
+			//alert(2);
+			$(".kjjbtn").attr("src","/templates/rolansini/img/main_kjjbtn_1.png");
+			$(".kjjbtn1").animate({right:"0px",bottom:"0px",rotate:"-720deg"},300,"easeInBack").fadeOut(300);
+			$(".kjjbtn2").delay(50).animate({right:"0px",bottom:"0px",rotate:"-720deg"},300,"easeInBack").fadeOut(300);
+			$(".kjjbtn3").delay(100).animate({right:"0px",bottom:"0px",rotate:"-720deg"},300,"easeInBack").fadeOut(300);
+			$(".kjjbtn4").delay(150).animate({right:"0px",bottom:"0px",rotate:"-720deg"},300,"easeInBack").fadeOut(300);
+			$(".kjjbtn5").delay(200).animate({right:"0px",bottom:"0px",rotate:"-720deg"},300,"easeInBack").fadeOut(300);
+			$(".kjjbtn6").delay(200).animate({right:"0px",bottom:"0px",rotate:"-720deg"},300,"easeInBack").fadeOut(300);
+			$(".kjjbtn7").delay(200).animate({right:"0px",bottom:"0px",rotate:"-720deg"},300,"easeInBack").fadeOut(300);
+		}
+	});
+	///导航展开收起点击事件//
+	$("#mian_SZBtn").click(function(){
+		if(SZBoo==1){
+			SZBoo=0;
+			$("#mian_SZBtn").css("background","url(/templates/rolansini/img/main_SZBtn1.png)").animate({left:"164px"},300);
+			$("#content_ajax").animate({width:$(window).width()-165+"px"},300);
+			$(".menu").animate({marginLeft:"0px"},300);
+			//alert("展开");
+		}else if(SZBoo==0){
+			SZBoo=1;
+			$("#mian_SZBtn").css("background","url(/templates/rolansini/img/main_SZBtn.png)").animate({left:"5px"},300);
+			$("#content_ajax").animate({width:$(window).width()-5+"px"},300);
+			$(".menu").animate({marginLeft:"-165px"},300);
+			//alert("收起");
+		}
+	});
+});
+//加载容器宽度的自适应//
+$(window).resize(function(){
+	if(SZBoo==1){
+		$("#content_ajax").css({"width":$(window).width()-5});
+	}
+	if(SZBoo==0){
+		$("#content_ajax").css({"width":$(window).width()-165});
+	}
+	if(SZBoo==2){
+		$("#content_ajax").css({"width":$(window).width()});
+	}
+});
+</script>
+</head>
+
+<body>
+<div id="main">
+	<div id="mainfcc"></div>
+
+	<div class="menu"> 
+		<img class="menu_logo" src="templates/rolansini/img/logo.png" width="100%">
+		<div class="menu_btn"> <img src="templates/rolansini/img/menu_bar.png">
+			<ul class="BtnMc">
+				<li><a class="btn0">网站首页</a></li>
+				<li><a class="btn1">关于品牌</a></li>
+				<li><a class="btn2">产品欣赏</a></li>
+				<li><a class="btn3">新闻中心</a></li>
+				<li><a class="btn4">招商加盟</a></li>
+				<li><a class="btn5">专卖网络</a></li>
+				<li><a class="btn6">联系方式</a></li>
+                <li><a class="btn7">会员中心</a></li>
+			</ul>
+		</div>
+		<!--移动端导航-->
+		<div class="YD_menu">
+			<ul>
+				<li><a><img src="templates/rolansini/img/yd_btn1.png" alt=""></a></li>
+				<li><a><img src="templates/rolansini/img/yd_btn2.png" alt=""></a></li>
+				<li><a><img src="templates/rolansini/img/yd_btn3.png" alt=""></a></li>
+				<li><a><img src="templates/rolansini/img/yd_btn4.png" alt=""></a></li>
+				<li><a><img src="templates/rolansini/img/yd_btn5.png" alt=""></a></li>
+				<li><a><img src="templates/rolansini/img/yd_btn6.png" alt=""></a></li>
+			</ul>
+		</div>
+		<!--end-->
+	</div>
+	<div id="mian_SZBtn"></div>
+	<div id="loading"></div>
+	<div id="content_ajax" class="" style="width:100%;height:100%;overflow:hidden;position:absolute;right:0px;top:0px;">
+		<div id="content_fst" class="alphaIn alphaOut" style="z-index:80;overflow:hidden;width:100%;height:100%;position:absolute;right:0px;top:0px;"></div>
+		<div id="content_lst" class="alphaIn alphaOut" style="z-index:85;opacity:0;overflow:hidden;width:100%;height:100%;position:absolute;right:0px;top:0px;"></div>
+	</div>
+	<div class="kjjbtnMc" style="display:none;">
+		<a class="kjjbtn1" href="main.html#page1" title="关于品牌"><img src="templates/rolansini/img/main_kjjbtn1.png"></a>
+		<a class="kjjbtn2" href="main.html#page2" title="产品欣赏"><img src="templates/rolansini/img/main_kjjbtn2.png"></a>
+		<a class="kjjbtn3" href="main.html#page3" title="新闻中心"><img src="templates/rolansini/img/main_kjjbtn3.png"></a>
+		<a class="kjjbtn4" href="main.html#diy" title="DIYT体验馆"><img src="templates/rolansini/img/main_kjjbtn4.png"></a>
+		<a class="kjjbtn5" href="main.html#album" title="电子画册"><img src="templates/rolansini/img/main_kjjbtn5.png"></a>
+		<a class="kjjbtn6" href="main.html#page4" title="招商加盟"><img src="templates/rolansini/img/main_kjjbtn6.png"></a>
+		<a class="kjjbtn7" href="main.html#page6" title="联系方式"><img src="templates/rolansini/img/main_kjjbtn7.png"></a>
+		<img class="kjjbtn" src="templates/rolansini/img/main_kjjbtn_1.png">
+	</div>
+    <div class="YT_menu" style="display:none;">
+		<a class="YT_btn1" href="main.html#page1" title="关于品牌"><img src="templates/rolansini/img/main_kjjbtn1.png"></a>
+		<a class="YT_btn2" href="main.html#page2" title="产品欣赏"><img src="templates/rolansini/img/main_kjjbtn2.png"></a>
+		<a class="YT_btn3" href="main.html#page3" title="新闻中心"><img src="templates/rolansini/img/main_kjjbtn3.png"></a>
+		<a class="YT_btn4" href="main.html#diy" title="DIYT体验馆"><img src="templates/rolansini/img/main_kjjbtn4.png"></a>
+		<a class="YT_btn5" href="main.html#album" title="电子画册"><img src="templates/rolansini/img/main_kjjbtn5.png"></a>
+		<a class="YT_btn6" href="main.html#page4" title="招商加盟"><img src="templates/rolansini/img/main_kjjbtn6.png"></a>
+		<a class="YT_btn7" href="main.html#page6" title="联系方式"><img src="templates/rolansini/img/main_kjjbtn7.png"></a>
+		<img class="YT_btn" src="templates/rolansini/img/YT_menu_Btn.png">
+	</div>
+</div>
+<div class="copyright">技术支持:<a target="_balnk" href="../doorways.cn">门道网</a></div>
+<div style="display:none;"><script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " ../index.htm");document.write(unescape("%3Cspan id='cnzz_stat_icon_5602725'%3E%3C/span%3E%3Cscript src='"%20+%20cnzz_protocol%20+/index.htm"s96.cnzz.com/stat.php%3Fid%3D5602725%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script></div>
+</body>
+</html>

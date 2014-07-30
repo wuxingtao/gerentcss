@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta content="telephone=no" name="format-detection">
+<meta content="email=no" name="format-detection" />
+<meta name="keywords" content="Working" />
+<meta name="description" content="" />
+<title>Working</title>
+<!--[if lt IE 9]>
+<script src="js/html5.js"></script>
+<script src="js/css3-mediaqueries.js"></script>
+<![endif]-->
+<!--[if lte IE 6]>
+<script language="javascript" src="js/IE6-PNg-min.js"></script>
+<script language="javascript">
+DD_belatedPNG.fix('div,ul,img,li,input,dl,dt,dd,a,em,i,b,span,strong,header,footer,section,details,aside,menu,nav,article,hgroup,figure,figcaption');
+</script>
+<![endif]-->
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="js/tcss-json.js"></script>
+<link href="style/style.css" rel="stylesheet" type="text/css">
+<link href="style/index.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet/tcss" type="text/css" href="style/geren_t-index.css"/>
+<script type="text/javascript" src="js/geren_tcss.js"></script>
+<script type="text/javascript" src="js/swfobject.js"></script>
+<script type="text/javascript">
+$(function(){
+	$(".innavwk a").hover(function(){
+		$(this).find(".navhg").fadeIn(300);
+	},function(){
+		$(this).find(".navhg").fadeOut(300);
+	});
+	
+	$(".inbtn").click(function(){
+		$(".fcc").fadeIn("300");
+	});
+	$(".close").click(function(){
+		$(".fcc").fadeOut("300");
+	});
+	
+	var tcss=window.tcss;
+	var logo=tcss.getMovie('jkl-movie');
+	logo.enable();
+	logo.play();
+});
+</script>
+
+<!-- End Piwik Code -->
+<style>
+#wrapper{margin: 0 auto;width: 1203px;height: 700px;position: relative;z-index: 0;}
+.left{position:absolute;}
+.left_a1{left: 50px;top: 3px;width: 300px;height: 199px;}
+.left_a2{top: 569px;left: 51px;width: 300px;height: 199px;}
+.inpic{position:absolute;}
+.right_a1{left: 351px;top: 202px;z-index: 2;width: 551px;height: 365px;}
+.right_a1 img{width:551px;height:365px;position: absolute;top:0px;left:0px;}
+.left_a1 img{width:300px;height:199px;position:absolute;top:0px;left:0px;}
+.left_a2 img{width:300px;height:199px;position:absolute;top:0px;left:0px;}
+.left_a1 img{width:300px;height:199px;position:absolute;top:0px;left:0px;}
+.words{top: 75px;left: 415px;widt:438px;height:94px;}
+.words img{position:absolute;left:0;top:0;width:438px;height:94px;opacity:0;}
+</style>
+</head>
+
+<body>
+<div id="wrapper">
+			 <div class="left left_a2"><img src="img/2.jpg" name="thumpic1"  class="R5-adp"  id="thumpic1"></div>
+             <div class="inpic right_a1"><img src="img/3.jpg" name="skate" class="SKATE-adp" id="skate" ></div>
+			 <div class="inpic left_a1"><img src="img/4.jpg"name="thumpic2"  class="R5-adp"  id="thumpic2"></div>
+			 <div class="inpic words"><img src="img/inpic2.png" name="chaorenqi" class="R5-adp" id="chaorenqi" ></div>
+
+
+	  
+	  
+	  
+	  
+
+ </div> 
+
+</body>
+</html>
