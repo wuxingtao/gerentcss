@@ -1,0 +1,80 @@
+
+.R5-adp{
+	type:common;
+	scale:NO;
+	registerPoint:5;
+	location-x:L;
+	location-x-scale:C;
+	location-y:T;
+	location-y-scale:M;
+	scale-x:MAX;
+	scale-y:MAX;
+}
+.top_alphaIn{
+	type:clip;
+	tweens:t1;
+	t1-props:[1,20,'EaseOut'];
+	t1-start:
+		css('margin-top','50px')
+	    css('opacity','0');
+	t1-end:
+		css('margin-top','0px')
+	    css('opacity','1');
+}
+.top_alphaOut{
+	type:clip;
+	tweens:t1;
+	t1-props:[1,5,'EaseOut'];
+	t1-start:
+		css('margin-top','50px')
+	    css('opacity','1');
+	t1-end:
+		css('margin-top','0px')
+	    css('opacity','0');
+}
+.left_alphaIn{
+	type:clip;
+	tweens:t1;
+	t1-props:[1,30,'EaseOut'];
+	t1-start:
+		css('margin-left','1400px')
+	    css('opacity','0');
+	t1-end:
+		css('margin-left','0px')
+	    css('opacity','1');
+}
+page4_bg_movie{
+	type:movie;
+	autoplay:true;
+	loop:false;
+	directRender:true;
+	
+	clips:c1;
+	
+	c1-selector:#page4_bgMc;
+	c1-clip:.left_alphaIn;
+	c1-from:1;
+	c1-to:30;
+	
+	labels:s1;
+	scripts:s1;
+	s1-frame:30;
+	s1-script:
+		<![CDATA[
+			var m=tcss.getMovie('page4-movie');
+			m.play();
+		]]>;
+}
+page4-movie{
+	type:movie;
+	autoplay:false;
+	loop:false;
+	directRender:true;
+	
+	clips:c1;
+	
+	c1-selector:#page4_info;
+	c1-clip:.top_alphaIn;
+	c1-from:1;
+	c1-to:20;
+}

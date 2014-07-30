@@ -1,0 +1,99 @@
+.settings{
+	Id:main;         /*渲染器Id,使用多渲染器时有用*/
+	selector:#main;        /*主容器，渲染器依据主容器的宽高来计算缩放比*/
+	useRAF:false;           /*使用浏览器的 RequestAnimationFrame 方法作为渲染触发*/
+	fps:30;                /*渲染器帧率*/
+	
+	
+	clampWidth:1400px;     /*锁定宽度*/ 
+	clampHeight:850px;     /*锁定高度*/
+	default-type:common;   /*clip text common(clip:影片剪辑 text:文本 common 普通)*/
+	default-scale:MAX;     /*H W MAX MIN (WH:宽度优先,HW:高度优先)*/
+	default-scale-min:0.2; /*默认的缩放下限*/
+	default-scale-max:2;   /*默认的缩放上限*/
+	default-location-x:L;    /*L R T B (L:left R:right T:top B:bottom 可组合)*/
+	default-location-scale:NO;
+	default-location-y:T;
+	default-location-scale:NO;
+	default-autoplay:true;
+	/*default-location-scale:NO; TODO:如果定位的缩放因子和宽高的不一直的话，可以使用这个属性。H W WH NO (WH:宽度优先,HW:高度优先) */
+}
+.main_content_ajax-adp{
+	type:common;
+	scale-x:W;
+	scale-y:NO/*
+	scale-script:
+		<![CDATA[
+			//$('#main').css('display','block');
+			console.log('scale-script!');
+			var info=new Object();
+			info.scaleW=1;
+			info.scaleH=1;
+			var w=$('#main').width();
+			var h=$('#main').height();
+			info.scaleW=Math.min(w/1200,1);
+			info.scaleH=1;
+			return info;
+		]]>;*/
+	registerPoint:5;
+	location-x:L;
+	location-x-scale:C;
+	location-y:T;
+	location-y-scale:NO;
+}
+.main_alphaIn{
+	type:clip;
+	tweens:t1;
+	t1-props:[1,20,'EaseOut'];
+	t1-start:
+	    css('opacity','0');
+	t1-end:
+	    css('opacity','1');
+}
+.main_alphaOut{
+	type:clip;
+	tweens:t1;
+	t1-props:[1,5,'EaseOut'];
+	t1-start:
+	    css('opacity','1');
+	t1-end:
+	    css('opacity','0');
+}
+loading-movie{
+	type:movie;
+	autoplay:true;
+	loop:false;
+	directRender:true;
+	clips:c1,c2;
+	c1-selector:#loading;
+	c1-clip:.main_alphaIn;
+	c1-from:1;
+	c1-to:20;
+	c2-selector:#loading;
+	c2-clip:.main_alphaOut;
+	c2-from:21;
+	c2-to:25;
+	labels:loading,finished;
+	loading-frame:1;
+	finished-frame:21;
+	scripts:loading,loaded,exit;
+	loading-script:
+		<![CDATA[
+			console.log('loading');
+			$('#loading').css('display','block');
+		]]>;
+	loaded-frame:20;
+	loaded-script:
+		<![CDATA[
+			console.log('loading stop()');
+			$('#loading').css('display','block');
+	        stop();
+		]]>;
+	exit-frame:25;
+	exit-script:
+		<![CDATA[
+	        //this.disable();
+			console.log('loading exit()');
+			$('#loading').css('display','none');
+		]]>;
+}

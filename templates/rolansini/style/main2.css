@@ -1,0 +1,102 @@
+body{
+	overflow:hidden;
+}
+#main{
+	position:absolute;
+	width:100%;
+	height:100%;
+	left:0;
+	top:0;
+	overflow:hidden;
+	background:#000000;
+}
+#mainfcc{
+	position:absolute;
+	left:0;
+	top:0;
+	/*width:100%;
+	height:100%;*/
+	overflow:hidden;
+	filter:alpha(opacity=0);-moz-opacity:0;opacity:0;
+}
+.YT_mian_bg{
+	position:absolute;
+	width:100%;
+	height:100%;
+	background:#333;
+}
+#loading{
+	z-index:50;
+	width:100%;
+	height:100%;
+	position:absolute;
+	left:0px;
+	top:0px;
+	background:url(../img/loading.gif) center center no-repeat;
+}
+#back_Home{
+	position:absolute;
+	left:50%;
+	top:0;
+	width:95px;
+	height:29px;
+	margin-left:-47px;
+	cursor:pointer;
+	z-index:999;
+}
+.YT_menu{
+	position:absolute;
+	left:50%;
+	bottom:0;
+	width:284px;
+	height:137px;
+	margin-left:-142px;
+	z-index:999;
+}
+.YT_btn{
+	position:absolute;
+	right:25px;
+	bottom:0;
+	cursor:pointer;
+}
+.YT_btn1,.YT_btn2,.YT_btn3,.YT_btn4,.YT_btn5,.YT_btn6,.YT_btn7{
+	position:absolute;
+	left:116px;
+	bottom:-5px;
+	display:none;
+}
+/*.YT_btn1{
+	position:absolute;
+	bottom:8px;
+	left:-69px;
+}
+.YT_btn2{
+	position:absolute;
+	bottom:76px;
+	left:-31px;
+}
+.YT_btn3{
+	position:absolute;
+	bottom:134px;
+	left:40px;
+}
+.YT_btn4{
+	position:absolute;
+	bottom:151px;
+	left:123px;
+}
+.YT_btn5{
+	position:absolute;
+	bottom:134px;
+	left:200px;
+}
+.YT_btn6{
+	position:absolute;
+	bottom:76px;
+	left:261px;
+}
+.YT_btn7{
+	position:absolute;
+	bottom:8px;
+	left:299px;
+}*/

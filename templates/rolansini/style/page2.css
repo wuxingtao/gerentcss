@@ -1,0 +1,126 @@
+#page2{
+	position:absolute;
+	width:100%;
+	height:100%;
+	right:0;
+	overflow:hidden;
+}
+#page2_bgMc{
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+}
+#page2_bg{
+	position:absolute;
+	width:1400px;
+	height:850px;
+	left:0;
+	top:0;
+}
+#page2_info{
+	position:absolute;
+	width:472px;
+	height:390px;
+	left:45%;
+	top:40%;
+	margin-left:-236px;
+	margin-top:-195px;
+}
+#page2_txt1{
+	position:absolute;
+	width:314px;
+	top:0px;
+	left:147px;
+	filter:alpha(Opacity=0); -khtml-opacity:0; -moz-opacity:0; opacity: 0;
+}
+#page2_bar{
+	position:absolute;
+	top:57px;
+	left:0px;
+	filter:alpha(Opacity=0); -khtml-opacity:0; -moz-opacity:0; opacity: 0;
+}
+#page2_txt2{
+	position:absolute;
+	top:77px;
+	left:128px;
+	filter:alpha(Opacity=0); -khtml-opacity:0; -moz-opacity:0; opacity: 0;
+}
+#page2_txt3{
+	position:absolute;
+	top:101px;
+	left:26px;
+	filter:alpha(Opacity=0); -khtml-opacity:0; -moz-opacity:0; opacity: 0;
+}
+#page2_txt4{
+	position:absolute;
+	top:137px;
+	left:81px;
+	filter:alpha(Opacity=0); -khtml-opacity:0; -moz-opacity:0; opacity: 0;
+}
+#page2_bar1{
+	position:absolute;
+	top:173px;
+	left:0px;
+	filter:alpha(Opacity=0); -khtml-opacity:0; -moz-opacity:0; opacity: 0;
+}
+#page2_btn{
+	position:absolute;
+	left:-70px;
+	top:155px;
+}
+#page2_btn1{
+	position:absolute;
+	left:0px;
+	top:0px;
+	cursor:pointer;
+	filter:alpha(Opacity=0); -khtml-opacity:0; -moz-opacity:0; opacity: 0;
+}
+#page2_btn2{
+	position:absolute;
+	left:194px;
+	top:0;
+	cursor:pointer;
+	filter:alpha(Opacity=0); -khtml-opacity:0; -moz-opacity:0; opacity: 0;
+}
+#page2_btn3{
+	position:absolute;
+	left:388px;
+	top:0;
+	cursor:pointer;
+	filter:alpha(Opacity=0); -khtml-opacity:0; -moz-opacity:0; opacity: 0;
+}
+#page2_btn4{
+	position:absolute;
+	left:582px;
+	top:0;
+	cursor:pointer;
+	filter:alpha(Opacity=0); -khtml-opacity:0; -moz-opacity:0; opacity: 0;
+}
+#page2_btn1Txt{
+	position:absolute;
+	left:12px;
+	top:12px;
+	filter:alpha(Opacity=0); -khtml-opacity:0; -moz-opacity:0; opacity: 0;
+}
+#page2_btn2Txt{
+	position:absolute;
+	left:12px;
+	top:12px;
+	filter:alpha(Opacity=0); -khtml-opacity:0; -moz-opacity:0; opacity: 0;
+}
+#page2_btn3Txt{
+	position:absolute;
+	left:12px;
+	top:12px;
+	filter:alpha(Opacity=0); -khtml-opacity:0; -moz-opacity:0; opacity: 0;
+}
+#page2_btn4Txt{
+	position:absolute;
+	left:12px;
+	top:12px;
+	filter:alpha(Opacity=0); -khtml-opacity:0; -moz-opacity:0; opacity: 0;
+}
+.Btn_mov img{ border:1px solid #fff;}
+.Btn_mov h1{ color:#fff; font-size:16px; text-align:center; font-family:"Microsoft YaHei"; margin-top:10px;}

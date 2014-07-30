@@ -1,0 +1,135 @@
+
+.R5-adp{
+	type:common;
+	scale:NO;
+	registerPoint:5;
+	location-x:L;
+	location-x-scale:C;
+	location-y:T;
+	location-y-scale:M;
+	scale-x:MAX;
+	scale-y:MAX;
+}
+.alphaIn{
+	type:clip;
+	tweens:t1;
+	t1-props:[1,20,'EaseOut'];
+	t1-start:
+	    css('opacity','0');
+	t1-end:
+	    css('opacity','1');
+}
+.top_alphaIn{
+	type:clip;
+	tweens:t1;
+	t1-props:[1,20,'EaseOut'];
+	t1-start:
+		css('margin-top','50px')
+	    css('opacity','0');
+	t1-end:
+		css('margin-top','0px')
+	    css('opacity','1');
+}
+.top_alphaOut{
+	type:clip;
+	tweens:t1;
+	t1-props:[1,5,'EaseOut'];
+	t1-start:
+		css('margin-top','50px')
+	    css('opacity','1');
+	t1-end:
+		css('margin-top','0px')
+	    css('opacity','0');
+}
+.left_alphaIn{
+	type:clip;
+	tweens:t1;
+	t1-props:[1,30,'EaseOut'];
+	t1-start:
+		css('margin-left','1400px')
+	    css('opacity','0');
+	t1-end:
+		css('margin-left','0px')
+	    css('opacity','1');
+}
+.width_alphaIn{
+	type:clip;
+	tweens:t1;
+	t1-props:[1,30,'EaseOut'];
+	t1-start:
+		css('width','0px')
+	    css('opacity','0');
+	t1-end:
+		css('width','100%')
+	    css('opacity','1');
+}
+page3_bg_movie{
+	type:movie;
+	autoplay:true;
+	loop:false;
+	directRender:true;
+	
+	clips:c1;
+	
+	c1-selector:#page3_bgMc;
+	c1-clip:.left_alphaIn;
+	c1-from:1;
+	c1-to:30;
+	
+	labels:s1;
+	scripts:s1;
+	s1-frame:30;
+	s1-script:
+		<![CDATA[
+			var m=tcss.getMovie('page3-movie');
+			m.play();
+		]]>;
+}
+page3-movie{
+	type:movie;
+	autoplay:false;
+	loop:false;
+	directRender:true;
+	
+	clips:c1,c2,c3,c4,c5,c6,c7,c8;
+	
+	c1-selector:#page3_txt1;
+	c1-clip:.top_alphaIn;
+	c1-from:1;
+	c1-to:20;
+	
+	c2-selector:#page3_bar;
+	c2-clip:.top_alphaIn;
+	c2-from:3;
+	c2-to:23;
+	
+	c3-selector:#page3_txt2;
+	c3-clip:.top_alphaIn;
+	c3-from:5;
+	c3-to:25;
+	
+	c4-selector:#page3_txt3;
+	c4-clip:.top_alphaIn;
+	c4-from:5;
+	c4-to:25;
+	
+	c5-selector:#page3_txt4;
+	c5-clip:.top_alphaIn;
+	c5-from:5;
+	c5-to:25;
+	
+	c6-selector:#page3_bar1;
+	c6-clip:.top_alphaIn;
+	c6-from:7;
+	c6-to:27;
+	
+	c7-selector:#page3_btn;
+	c7-clip:.top_alphaIn;
+	c7-from:9;
+	c7-to:29;
+	
+	c8-selector:.page3_alpha;
+	c8-clip:.alphaIn;
+	c8-from:9;
+	c8-to:29;
+}

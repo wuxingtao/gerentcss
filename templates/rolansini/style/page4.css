@@ -1,0 +1,136 @@
+#page1{
+	position:absolute;
+	width:100%;
+	height:100%;
+	right:0;
+	overflow:hidden;
+}
+#page1_bgMc{
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+}
+#page1_bg{
+	position:absolute;
+	width:1400px;
+	height:850px;
+	left:0;
+	top:0;
+}
+#page1_info{
+	position:absolute;
+	width:855px;
+	height:390px;
+	left:50%;
+	top:50%;
+	margin-left:-363px;
+	margin-top:-195px;
+}
+#page1_txt{
+	position:absolute;
+	width:724px;
+	height:219px;
+	top:175px;
+	filter:alpha(Opacity=0); -khtml-opacity:0; -moz-opacity:0; opacity: 0;
+}
+#page1_txt1{
+	position:absolute;
+	width:178px;
+	height:46px;
+	top:0px;
+	left:282px;
+	filter:alpha(Opacity=0); -khtml-opacity:0; -moz-opacity:0; opacity: 0;
+}
+#page1_bar{
+	position:absolute;
+	top:57px;
+	left:135px;
+	filter:alpha(Opacity=0); -khtml-opacity:0; -moz-opacity:0; opacity: 0;
+}
+#page1_txt2{
+	position:absolute;
+	top:54px;
+	left:136px;
+	filter:alpha(Opacity=0); -khtml-opacity:0; -moz-opacity:0; opacity: 0;
+}
+#page1_txt3{
+	position:absolute;
+	top:101px;
+	left:156px;
+	filter:alpha(Opacity=0); -khtml-opacity:0; -moz-opacity:0; opacity: 0;
+}
+#page1_txt4{
+	position:absolute;
+	top:137px;
+	left:216px;
+	filter:alpha(Opacity=0); -khtml-opacity:0; -moz-opacity:0; opacity: 0;
+}
+#page1_bar1{
+	position:absolute;
+	top:173px;
+	left:135px;
+	filter:alpha(Opacity=0); -khtml-opacity:0; -moz-opacity:0; opacity: 0;
+}
+#page1_btn{
+	position:absolute;
+	left:63px;
+	top:214px;
+	filter:alpha(Opacity=0); -khtml-opacity:0; -moz-opacity:0; opacity: 0;
+}
+#page1_btn1{
+	position:absolute;
+	left:0px;
+	top:0px;
+	cursor:pointer;
+}
+#page1_btn2{
+	position:absolute;
+	left:158px;
+	top:0;
+	cursor:pointer;
+}
+#page1_btn3{
+	position:absolute;
+	left:317px;
+	top:0;
+	cursor:pointer;
+}
+#page1_btn4{
+	position:absolute;
+	left:475px;
+	top:0;
+	cursor:pointer;
+}
+#page1_btn5{
+	position:absolute;
+	left:633px;
+	top:0;
+	cursor:pointer;
+}
+#page1_btn1Txt{
+	position:absolute;
+	left:16PX;
+	top:18px;
+}
+#page1_btn2Txt{
+	position:absolute;
+	left:16PX;
+	top:18px;
+}
+#page1_btn3Txt{
+	position:absolute;
+	left:16PX;
+	top:18px;
+}
+#page1_btn4Txt{
+	position:absolute;
+	left:16PX;
+	top:18px;
+}
+
+.page1_alpha{
+	filter:alpha(Opacity=0); -khtml-opacity:0; -moz-opacity:0; opacity: 0;
+}
+.page1_alpha h1,h2{ color:#e4e3e3; font-size:16px; margin-top:10px; width:100%; text-align:center; font-family:"microsoft YaHei"; }

@@ -1,0 +1,155 @@
+#page3{
+	position:absolute;
+	width:100%;
+	height:100%;
+	right:0;
+	overflow:hidden;
+}
+#page3_bgMc{
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+}
+#page3_bg{
+	position:absolute;
+	width:1400px;
+	height:850px;
+	left:0;
+	top:0;
+}
+#page3_info{
+	position:absolute;
+	width:472px;
+	height:390px;
+	left:50%;
+	top:50%;
+	margin-left:-236px;
+	margin-top:-195px;
+}
+#page3_txt1{
+	position:absolute;
+	width:178px;
+	height:46px;
+	top:0px;
+	left:147px;
+	filter:alpha(Opacity=0); 
+	-moz-opacity:0; 
+	opacity: 0;
+}
+#page3_bar{
+	position:absolute;
+	top:57px;
+	left:0px;
+	filter:alpha(Opacity=0); 
+	-moz-opacity:0; 
+	opacity: 0;
+}
+#page3_txt2{
+	position:absolute;
+	top:77px;
+	left:128px;
+	filter:alpha(Opacity=0); 
+	-moz-opacity:0; 
+	opacity: 0;
+}
+#page3_txt3{
+	position:absolute;
+	top:60px;
+	left:-5px;
+	filter:alpha(Opacity=0); 
+	-moz-opacity:0; 
+	opacity: 0;
+}
+#page3_txt4{
+	position:absolute;
+	top:137px;
+	left:81px;
+	filter:alpha(Opacity=0); 
+	-moz-opacity:0; 
+	opacity: 0;
+}
+#page3_bar1{
+	position:absolute;
+	top:173px;
+	left:0px;
+	filter:alpha(Opacity=0); 
+	-moz-opacity:0; 
+	opacity: 0;
+}
+#page3_btn{
+	position:absolute;
+	left:0px;
+	top:57%;
+	width:100%;
+	height:145px;
+	filter:alpha(Opacity=0); 
+	-moz-opacity:0; 
+	opacity: 0;
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+}
+#page3_btn1{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:33.333%;
+	height:145px;
+	cursor:pointer;
+}
+#page3_btn a{
+	width:100%;
+	height:100%;
+	background:url(/templates/rolansini/img/page3_btnBg.png);
+	display:block;
+}
+#page3_btn2{
+	position:absolute;
+	left:33.333%;
+	top:0;
+	width:33.333%;
+	height:145px;
+	cursor:pointer;
+}
+#page3_btn3{
+	position:absolute;
+	right:0px;
+	top:0;
+	width:33.333%;
+	height:145px;
+	cursor:pointer;
+}
+#page3_btn1Txt{
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+#page3_btn2Txt{
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+#page3_btn3Txt{
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+#page3_btnBar1{
+	position:absolute;
+	left:33.333%;
+	top:0;
+	width:1px;
+	height:100%;
+	background:#000000;
+}
+#page3_btnBar2{
+	position:absolute;
+	left:66.666%;
+	top:0;
+	width:1px;
+	height:100%;
+	background:#000000;
+}
+.page3_alpha{
+	filter:alpha(Opacity=0); -khtml-opacity:0; -moz-opacity:0; opacity: 0;
+}

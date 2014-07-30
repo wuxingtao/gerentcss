@@ -1,0 +1,26 @@
+﻿body {
+	background:#000 url(../img/syxbg.gif) left bottom repeat-x;
+	color:#474747;
+	font-family:"\5B8B\4F53", "\5FAE\8F6F\96C5\9ED1";
+	font-size:12px;
+	line-height:18px;
+	-webkit-text-size-adjust:none
+}
+hr {
+	border:0;
+	border-bottom:1px solid #dbdbdb;
+	padding-top:25px;
+	margin-bottom:25px
+}
+a {
+	color:#C5C533;
+	text-decoration:none
+}
+a:hover {
+	color:#8D8D70;
+	text-decoration:none
+}
+.wrapper {
+	margin:0 auto;
+	width:1000px
+}
