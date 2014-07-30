@@ -1,0 +1,160 @@
+.settings{
+	Id:main;
+	selector:#wrapper;
+	useRAF:false;
+	fps:30;
+	
+	
+	clampWidth:1400px;
+	clampHeight:700px;
+	default-type:common;
+	default-scale:NO;
+	default-scale-min:0.2;
+	default-scale-max:2;
+	default-location-x:L;
+	default-location-scale:NO;
+	default-location-y:T;
+	default-location-scale:NO;
+	default-autoplay:true;
+}
+
+.NV-adp{
+	type:common;
+	scale:NO;
+	registerPoint:8;
+	location-x:L;
+	location-x-scale:NO;
+	location-y:T;
+	location-y-scale:NO;
+}
+.R5-adp{
+	type:common;
+	scale:NO;
+	registerPoint:5;
+	location-x:L;
+	location-x-scale:NO;
+	location-y:T;
+	location-y-scale:NO;
+}
+
+jkl-movie{
+	type:movie;
+	autoplay:true;
+	loop:false;
+	directRender:false;
+	totalFrame:125;
+	clips:c1,c2,c3,c4,c5,c6,c7,c8,c9,c10,c11,c12,c13,c14,c15,c16,c17,c18,c19,c20,c21,c22,c23;
+	c1-selector:#logo;
+	c1-clip:.logo-clip;
+	c1-from:20;
+	c1-to:50;
+	c2-selector:#wenzi1;
+	c2-clip:.wenzi-clip;
+	c2-from:50;
+	c2-to:80;
+	c3-selector:#wenzi2;
+	c3-clip:.wenzi-clip;
+	c3-from:60;
+	c3-to:90;
+	c4-selector:#wenzi3;
+	c4-clip:.wenzi-clip;
+	c4-from:70;
+	c4-to:100;
+	c5-selector:#wenzi4;
+	c5-clip:.wenzi-clip;
+	c5-from:80;
+	c5-to:100;
+	c6-selector:#buttonstar;
+	c6-clip:.btnStar-clip;
+	c6-from:100;
+	c6-to:120;
+	c7-selector:#shiping;
+	c7-clip:.shiping-clip;
+	c7-from:90;
+	c7-to:120;
+	c8-selector:#nvren;
+	c8-clip:.NV-clip;
+	c8-from:10;
+	c8-to:40;
+	c9-selector:#chaorenqi;
+	c9-clip:.wenzi2-clip;
+	c9-from:30;
+	c9-to:60;
+	c10-selector:#fengfei;
+	c10-clip:.wenzi2-clip;
+	c10-from:40;
+	c10-to:70;
+	c11-selector:#yuan1;
+	c11-clip:.yuanquan-clip;
+	c11-from:60;
+	c11-to:90;
+	c12-selector:#yuan2;
+	c12-clip:.yuanquan-clip;
+	c12-from:65;
+	c12-to:95;
+	c13-selector:#yuan3;
+	c13-clip:.yuanquan-clip;
+	c13-from:70;
+	c13-to:100;
+	c14-selector:#shangping;
+	c14-clip:.shangping-clip;
+	c14-from:50;
+	c14-to:80;
+	c15-selector:#daohang1;
+	c15-clip:.daohang-clip;
+	c15-from:30;
+	c15-to:60;
+	c16-selector:#daohang2;
+	c16-clip:.daohang-clip;
+	c16-from:30;
+	c16-to:60;
+	c17-selector:#daohang3;
+	c17-clip:.daohang-clip;
+	c17-from:30;
+	c17-to:60;
+	c18-selector:#daohang4;
+	c18-clip:.daohang-clip;
+	c18-from:30;
+	c18-to:60;
+	c19-selector:#daohang5;
+	c19-clip:.daohang-clip;
+	c19-from:30;
+	c19-to:60;
+	c20-selector:#daohang6;
+	c20-clip:.daohang-clip;
+	c20-from:30;
+	c20-to:60;
+	c21-selector:#goumai;
+	c21-clip:.wenzi2-clip;
+	c21-from:80;
+	c21-to:110;
+	c22-selector:#fuzhu;
+	c22-clip:.wenzi2-clip;
+	c22-from:40;
+	c22-to:80;
+	c23-selector:#chaxun;
+	c23-clip:.wenzi2-clip;
+	c23-from:80;
+	c23-to:110;
+	labels:'';
+	scripts:s1;
+	s1-frame:0;
+	s1-script:
+		<![CDATA[
+		    $('.NV-adp').css('opacity','0').css('origin-y','20px');
+            $('.R5-adp').css('opacity','0').css('origin-y','20px');
+			$('#shiping').css('opacity','0');
+			
+		]]>;
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+
+

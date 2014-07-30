@@ -1,0 +1,29 @@
+.settings{
+	Id:main;
+	selector:#wrapper;
+	useRAF:false;
+	fps:30;
+	
+	
+	clampWidth:1400px;
+	clampHeight:700px;
+	default-type:common;
+	default-scale:NO;
+	default-scale-min:0.2;
+	default-scale-max:2;
+	default-location-x:L;
+	default-location-scale:NO;
+	default-location-y:T;
+	default-location-scale:NO;
+	default-autoplay:true;
+}
+
+.NV-adp{
+	type:common;
+	scale:NO;
+	registerPoint:8;
+	location-x:L;
+	location-x-scale:NO;
+	location-y:T;
+	location-y-scale:NO;
+}

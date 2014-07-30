@@ -1,0 +1,8 @@
+.NV-adp{
+	type:common;
+	scale:NO;
+	registerPoint:8;
+	location-x:L;
+	location-x-scale:NO;
+	location-y:T;
+	location-y-scale:NO;
